@@ -69,3 +69,16 @@ section {
   display: block;
   margin-bottom: 1rem;
 }
+@media (max-width: 991px) {
+  .tablinks {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .title_section2 {
+    font-size: 1.5rem;
+  }
+  .title_section1 {
+    font-size: 0.75rem;
+  }
+}
