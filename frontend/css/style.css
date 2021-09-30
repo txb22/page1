@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-size: 16px;
+}
+@font-face {
+  font-family: SourceSansPro;
+  src: url(../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins/Poppins-Regular.ttf);
+}
+section {
+  padding: 2rem 0;
+}
+.title_section1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-weight: 400;
+  color: #0095da;
+  margin-bottom: 0;
+}
+.title_section2 {
+  font-family: SourceSansPro;
+  font-size: 2.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #071d61;
+}
+/* Tab Links */
+.tabs {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.tablinks {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 0.5rem;
+
+  font-size: 1rem;
+  /* text-transform: uppercase; */
+  font-weight: 600;
+  transition: 0.2s ease;
+  margin-right: 0.75rem;
+  font-family: Lato;
+  border-bottom: 2px solid #071d61;
+  background: #fff;
+  font-family: SourceSansPro;
+  font-size: 1.25rem;
+}
+.tablinks:hover,
+.tablinks.active {
+  background: #071d61;
+  color: #fff;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabcontent {
+  display: none;
+}
+.tabcontent.active {
+  display: block;
+  margin-bottom: 1rem;
+}
