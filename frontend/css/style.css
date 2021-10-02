@@ -14,6 +14,10 @@ body {
   font-family: Poppins;
   src: url(../font/Poppins/Poppins-Regular.ttf);
 }
+@font-face {
+  font-family: FontAwesome Free;
+  src: url(../css/fontawesome-free-5.15.4-web/css/all.min.css);
+}
 img {
   width: 100%;
 }
@@ -169,6 +173,6 @@ img {
 }
 .section_breacrumb ul li:not(:last-child)::after {
   content: "\f101";
-  font-family: "Font Awesome Free 5.15.4";
+  font-family: "FontAwesome Free";
   margin: 0 0.5125rem;
 }
